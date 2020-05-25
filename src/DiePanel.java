@@ -22,7 +22,7 @@ class DiePanel extends JPanel implements MouseListener{
     
     //create images
     try{
-    background = ImageIO.read(new File("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/New Cactus Climber/Oops.png"));
+    background = ImageIO.read(new File("/Users/JoleneZheng/CS Side/Cactus Climber/imgs/Oops.png"));
     }catch(Exception e){
       System.out.println("error loading background for lose");
     }

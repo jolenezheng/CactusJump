@@ -26,7 +26,7 @@ class Platform {
     xPos = Math.abs(random.nextInt()) % 550 + 5;
     yPos = (random.nextInt()) % 1000;
     try{
-      platImage = ImageIO.read(new File("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/New Cactus Climber/platform.png"));
+      platImage = ImageIO.read(new File("/Users/JoleneZheng/CS Side/Cactus Climber/imgs/platform.png"));
     }catch(Exception e){
       System.out.println("error platform image");
     }

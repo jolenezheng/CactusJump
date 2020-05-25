@@ -43,7 +43,7 @@ class GamePanel extends JPanel implements KeyListener{
   Random random = new Random();
   Map map;
   
-  File myFile = new File("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/New Cactus Climber/highscores.txt");
+  File myFile = new File("/Users/JoleneZheng/CS Side/Cactus Climber/imgs/highscores.txt");
   
   long previous = 0;
   long start = 0;

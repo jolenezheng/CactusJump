@@ -38,8 +38,8 @@ class HighScorePanel extends JPanel{
     }
     
     try{
-    myFile = new File("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/New Cactus Climber/highscores.txt");
-    fileInput = new Scanner (new File ("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/New Cactus Climber/highscores.txt"));
+    myFile = new File("/Users/JoleneZheng/CS Side/Cactus Climber/imgs/highscores.txt");
+    fileInput = new Scanner (new File ("/Users/JoleneZheng/CS Side/Cactus Climber/imgs/highscores.txt"));
     } catch(Exception e) {
       System.out.println("couldn't load highscore files");
     }

@@ -23,7 +23,7 @@ class Instructions extends JFrame{
     
     try{
       //create image
-      image = ImageIO.read(new File("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/New Cactus Climber/help.png"));
+      image = ImageIO.read(new File("/Users/JoleneZheng/CS Side/Cactus Climber/imgs/help.png"));
     }catch(Exception e){
       System.out.println("error loading instructions");
     }

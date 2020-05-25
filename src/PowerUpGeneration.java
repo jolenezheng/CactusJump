@@ -26,9 +26,9 @@ class PowerUpGeneration {
     yPos2 = (random.nextInt()) % 1000;
     
     try{
-      sunImage = ImageIO.read(new File("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/New Cactus Climber/sun.png"));
-      waterImage = ImageIO.read(new File("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/New Cactus Climber/water.png"));   
-      transparentImage = ImageIO.read(new File("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/New Cactus Climber/empty.png"));
+      sunImage = ImageIO.read(new File("/Users/JoleneZheng/CS Side/Cactus Climber/imgs/sun.png"));
+      waterImage = ImageIO.read(new File("/Users/JoleneZheng/CS Side/Cactus Climber/imgs/water.png"));   
+      transparentImage = ImageIO.read(new File("/Users/JoleneZheng/CS Side/Cactus Climber/imgs/empty.png"));
     }catch(Exception e){
       System.out.println("error powerup image");
     }

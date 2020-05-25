@@ -8,16 +8,16 @@ import javax.sound.sampled.DataLine;
 
 class SoundEffects {
   
-  static File jumpAudioFile = new File("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/New Cactus Climber/jump.wav");
+  static File jumpAudioFile = new File("/Users/JoleneZheng/CS Side/Cactus Climber/sounds/jump.wav");
   
   public static void playJumpSound() throws Exception {
     try {
       if (GamePanel.getCurrentGravity() == 15.3) {
-        jumpAudioFile = new File("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/New Cactus Climber/jump.wav");
+        jumpAudioFile = new File("/Users/JoleneZheng/CS Side/Cactus Climber/sounds/jump.wav");
       } else if (GamePanel.getCurrentGravity() == 19.5) {
-        jumpAudioFile = new File("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/New Cactus Climber/SunPowerUp.wav");
+        jumpAudioFile = new File("/Users/JoleneZheng/CS Side/Cactus Climber/sounds/SunPowerUp.wav");
       } else if (GamePanel.getCurrentGravity() == 12.8) {
-        jumpAudioFile = new File("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/New Cactus Climber/WaterPowerUp.wav");
+        jumpAudioFile = new File("/Users/JoleneZheng/CS Side/Cactus Climber/sounds/WaterPowerUp.wav");
       }
       AudioInputStream audioStream = AudioSystem.getAudioInputStream(jumpAudioFile);
       DataLine.Info info = new DataLine.Info(Clip.class, audioStream.getFormat());

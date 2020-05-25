@@ -22,7 +22,7 @@ class SelectLevelPanel extends JPanel implements MouseListener{
     
     //create images
     try{
-      background = ImageIO.read(new File("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/New Cactus Climber/SelectLevel.png"));
+      background = ImageIO.read(new File("/Users/JoleneZheng/CS Side/Cactus Climber/imgs/SelectLevel.png"));
     } catch(Exception e){
       System.out.println("error loading background for win");
     }

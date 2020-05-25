@@ -16,15 +16,15 @@ class Cactus extends Character{
     
     if(gender == 2){
       try{
-        image1 = ImageIO.read(new File("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/New Cactus Climber/cactus1.png"));
-        image2 = ImageIO.read(new File("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/New Cactus Climber/cactus2.png"));
+        image1 = ImageIO.read(new File("/Users/JoleneZheng/CS Side/Cactus Climber/imgs/cactus1.png"));
+        image2 = ImageIO.read(new File("/Users/JoleneZheng/CS Side/Cactus Climber/imgs/cactus2.png"));
       } catch(Exception e) {
         System.out.println("error char image");
       }
     } else if(gender == 1){
       try{
-        image1 = ImageIO.read(new File("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/New Cactus Climber/cactusf1.png"));
-        image2 = ImageIO.read(new File("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/New Cactus Climber/cactusf2.png"));
+        image1 = ImageIO.read(new File("/Users/JoleneZheng/CS Side/Cactus Climber/imgs/cactusf1.png"));
+        image2 = ImageIO.read(new File("/Users/JoleneZheng/CS Side/Cactus Climber/imgs/cactusf2.png"));
       } catch(Exception e) {
         System.out.println("error char image");
       }

@@ -15,8 +15,8 @@ class Butterfly extends Character{
     yChange = 1;
     
     try{
-      image1 = ImageIO.read(new File("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/New Cactus Climber/buttrl1.png"));
-      image2 = ImageIO.read(new File("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/New Cactus Climber/buttrl2.png"));
+      image1 = ImageIO.read(new File("/Users/JoleneZheng/CS Side/Cactus Climber/imgs/buttrl1.png"));
+      image2 = ImageIO.read(new File("/Users/JoleneZheng/CS Side/Cactus Climber/imgs/buttrl2.png"));
     }catch(Exception e){
       System.out.println("error enemy image");
     }

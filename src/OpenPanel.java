@@ -22,7 +22,7 @@ class OpenPanel extends JPanel implements MouseListener{
     
     //create images
     try{
-    background = ImageIO.read(new File("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/New Cactus Climber/Opening.png"));
+    background = ImageIO.read(new File("/Users/JoleneZheng/CS Side/Cactus Climber/imgs/Opening.png"));
     }catch(Exception e){
       System.out.println("error loading menu image");
     }

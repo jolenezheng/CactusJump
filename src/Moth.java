@@ -16,8 +16,8 @@ class Moth extends Character{
     xChange = 1;
     
     try{
-      image1 = ImageIO.read(new File("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/New Cactus Climber/mothr1.png"));
-      image2 = ImageIO.read(new File("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/New Cactus Climber/mothr2.png"));
+      image1 = ImageIO.read(new File("/Users/JoleneZheng/CS Side/Cactus Climber/imgs/mothr1.png"));
+      image2 = ImageIO.read(new File("/Users/JoleneZheng/CS Side/Cactus Climber/imgs/mothr2.png"));
     }catch(Exception e){
       System.out.println("error enemy BufferedImage");
     }

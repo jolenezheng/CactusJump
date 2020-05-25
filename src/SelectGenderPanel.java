@@ -22,9 +22,9 @@ class SelectGenderPanel extends JPanel implements MouseListener{
     
     //create images
     try {
-      girl = ImageIO.read(new File("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/New Cactus Climber/girl.png"));
-      boy = ImageIO.read(new File("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/New Cactus Climber/boy.png"));
-      background = ImageIO.read(new File("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/New Cactus Climber/pick.png"));
+      girl = ImageIO.read(new File("/Users/JoleneZheng/CS Side/Cactus Climber/imgs/girl.png"));
+      boy = ImageIO.read(new File("/Users/JoleneZheng/CS Side/Cactus Climber/imgs/boy.png"));
+      background = ImageIO.read(new File("/Users/JoleneZheng/CS Side/Cactus Climber/imgs/pick.png"));
     } catch(Exception e){
       System.out.println("error loading pick image");
     }

@@ -16,7 +16,7 @@ class Map {
   
   public Map() { 
     try {
-      image = ImageIO.read(new File("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/New Cactus Climber/background.png"));
+      image = ImageIO.read(new File("/Users/JoleneZheng/CS Side/Cactus Climber/imgs/background.png"));
       //image2 = ImageIO.read(new File("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/Cactus Climber- Rachel/stars.png"));
       playerX=image.getWidth()/2 + 100;  //place the player in the center of the map
       playerY=image.getHeight()/2;

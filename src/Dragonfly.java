@@ -16,8 +16,8 @@ class Dragonfly extends Character{
     yChange = 1;
     
     try{
-      image1 = ImageIO.read(new File("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/New Cactus Climber/dragl1.png"));
-      image2 = ImageIO.read(new File("/Users/JoleneZheng/Codes/Grade 11  AP CompSci/New Cactus Climber/dragl2.png"));
+      image1 = ImageIO.read(new File("/Users/JoleneZheng/CS Side/Cactus Climber/imgs/dragl1.png"));
+      image2 = ImageIO.read(new File("/Users/JoleneZheng/CS Side/Cactus Climber/imgs/dragl2.png"));
     }catch(Exception e){
       System.out.println("error enemy BufferedImage");
     }
